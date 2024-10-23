@@ -13,7 +13,7 @@ build:
 deploy:
   context: jojin77/DEV
   type: statefulset 
-  replicas: 2
+  replicas: 5
   port:
   - 9200
   - 9300
